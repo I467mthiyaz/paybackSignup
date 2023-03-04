@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-04T09:33:21 IST" name="Default suite" finished-at="2023-03-04T09:35:32 IST" duration-ms="131057">
+    <groups>
+    </groups>
+    <test started-at="2023-03-04T09:33:21 IST" name="Default test" finished-at="2023-03-04T09:35:32 IST" duration-ms="131057">
+      <class name="com.demo.Signup.pagepay">
+        <test-method signature="Unsuccessful_sign_up_with_invalid_email()[pri:0, instance:com.demo.Signup.pagepay@6da21078]" started-at="2023-03-04T09:33:21 IST" name="Unsuccessful_sign_up_with_invalid_email" finished-at="2023-03-04T09:33:51 IST" duration-ms="30688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Unsuccessful_sign_up_with_invalid_email -->
+        <test-method signature="Unsuccessful_sign_up_with_invalid_existing_email()[pri:0, instance:com.demo.Signup.pagepay@6da21078]" started-at="2023-03-04T09:33:51 IST" name="Unsuccessful_sign_up_with_invalid_existing_email" finished-at="2023-03-04T09:34:21 IST" duration-ms="29956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Unsuccessful_sign_up_with_invalid_existing_email -->
+        <test-method signature="Unsuccessful_sign_up_with_invalid_phonenumber()[pri:0, instance:com.demo.Signup.pagepay@6da21078]" started-at="2023-03-04T09:34:21 IST" name="Unsuccessful_sign_up_with_invalid_phonenumber" finished-at="2023-03-04T09:34:51 IST" duration-ms="30185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Unsuccessful_sign_up_with_invalid_phonenumber -->
+        <test-method signature="succesSuccessful_sign_up()[pri:0, instance:com.demo.Signup.pagepay@6da21078]" started-at="2023-03-04T09:34:51 IST" name="succesSuccessful_sign_up" finished-at="2023-03-04T09:35:32 IST" duration-ms="40183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- succesSuccessful_sign_up -->
+      </class> <!-- com.demo.Signup.pagepay -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

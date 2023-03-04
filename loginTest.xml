@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <groups>
+		  <define name="one">
+			  <include name="success"/>
+			  <include name="2ndgroup"/>
+			  <include name="3rdgroup"/>
+			  <include name="4th"/>
+		  </define>
+		  <run>
+			 <include name="one"/>
+		  </run>
+	  </groups>
+    <classes>
+      <class name="com.demo.Signup.Stepdefinitation2Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

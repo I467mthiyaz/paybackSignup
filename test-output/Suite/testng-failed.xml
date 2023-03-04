@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="one"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.demo.Signup.Stepdefinitation2Test">
+        <methods>
+          <include name="user_should_see_a_otp_entry_page1Test"/>
+          <include name="user_should_click_loginTest"/>
+          <include name="user_should_see_an_error_message_indicating_the_invalid_PhoneNumber_formatTest"/>
+          <include name="user_should_able_to_see_success_messageTest"/>
+          <include name="user_should_click_the_signup_buttonnTest"/>
+          <include name="user_click_on_the_Generate_OTP1Test"/>
+          <include name="user_click_on_the_Generate_OTP4Test"/>
+          <include name="user_click_on_the_Generate_OTP3Test"/>
+          <include name="user_should_see_an_error_message_indicating_the_email_is_already_registeredTest"/>
+          <include name="user_click_on_the_Generate_OTP2Test"/>
+          <include name="user_should_see_an_error_message_indicating_the_invalid_email_formatTest"/>
+          <include name="user_enter_my_details2Test"/>
+        </methods>
+      </class> <!-- com.demo.Signup.Stepdefinitation2Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
